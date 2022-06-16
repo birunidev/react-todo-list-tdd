@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { CheckIcon } from "@heroicons/react/solid";
 import useTodos from "../../hooks/useTodos";
 

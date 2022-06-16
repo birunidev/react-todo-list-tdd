@@ -17,7 +17,7 @@ function App() {
     setTitle(e.target.value);
   }
   function handleAddTodo(e) {
-    if (e.keyCode == 13) {
+    if (e.keyCode === 13) {
       if (title === "") {
         setError("This field is required");
         return;
@@ -38,7 +38,7 @@ function App() {
   function handleUpdateTodo(id) {
     let copy_todos = [...todos];
     copy_todos.forEach((todo) => {
-      if (id == todo.id) {
+      if (id === todo.id) {
         todo.isCompleted = !todo.isCompleted;
       }
     });
