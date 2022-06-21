@@ -52,7 +52,7 @@ function App() {
         <div
           className="h-[100vh] ml-[320px] w-full "
           style={{
-            backgroundImage: `url(/bg.jpg)`,
+            backgroundImage: `url(/react-todo-list-tdd/bg.jpg)`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",
