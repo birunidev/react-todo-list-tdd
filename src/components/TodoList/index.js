@@ -45,7 +45,7 @@ export default function TodoList({ data, handleClick }) {
           className="text-center bg-[#212121] opacity-[0.8] max-w-[220px] mx-auto py-5 rounded text-white"
         >
           <div className="w-[100px] h-[50px] mx-auto py-3 flex items-center my-4">
-            <img className="w-full" src="/calendar.png" alt="" />
+            <img className="w-full" src="/react-todo-list-tdd/calendar.png" alt="" />
           </div>
           <p>No Task Today ?</p>
           <p>Try to add some here</p>
